@@ -1,0 +1,2 @@
+# Pic_Store
+Pic_Store是一个开源的基于Flask框架的图床应用

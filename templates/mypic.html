@@ -1,0 +1,9 @@
+<h1>mypic</h1>
+<ul>
+    {%for pic in pics%}
+    <li>
+        <img src="{{WEB_HOST+pic.fileurl}}" alt="">
+        <P>url = {{WEB_HOST+pic.fileurl}}</P>
+    </li>
+    {%endfor%}
+</ul>
